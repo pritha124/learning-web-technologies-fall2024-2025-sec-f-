@@ -1,12 +1,19 @@
+
 <?php
-   
-     echo "The odd numbers between 10 to 100 is ";
-     for($i=10; $i<100; $i++){
-        if ($i&1){
-        echo $i." ";
-        }  
-     }
-
-
-
+$std = [10, "Pew", 24, "akib", "opi", "21"] ;
+$se_ele = "Pew";
+for( $i = 0; $i < 6; $i++ ){
+ 
+    if($std[$i]==$se_ele){
+        echo "Element is found in the array.";
+    }
+    else{
+        continue;
+    }
+}
+ 
+ 
+ 
+ 
 ?>
+ 
