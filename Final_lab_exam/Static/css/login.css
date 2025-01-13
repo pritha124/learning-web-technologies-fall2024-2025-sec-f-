@@ -1,0 +1,87 @@
+/* CSS for Login Page with Baby Pink Undertone */
+
+body {
+    background-color: #ffe6e6; /* Soft baby pink background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    background-color: #fff5f5; /* Lighter pink for form background */
+    border: 1px solid #ffcccc; /* Slightly darker pink border */
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #cc3366; /* A deeper pink for the header */
+    margin-bottom: 20px;
+}
+
+label {
+    color: #cc6699;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ffcccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #ff99cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff6699;
+}
+
+button {
+    background-color: #ff99cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ff6699;
+}
+
+p {
+    font-size: 14px;
+    color: #cc6699;
+    text-align: center;
+}

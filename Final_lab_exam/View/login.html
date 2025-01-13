@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="../Static/css/login.css">
+</head>
+<body>
+    <div class="container">
+        <form method="post" action="../Controller/login.php">
+            <h1>Login</h1>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" value="" /> <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" value="" /> <br>
+            <input type="submit" name="submit" value="Submit" />
+        </form>
+        <p>If you haven't registered yet, <b><i>Go to registration:</i></b></p>
+        <button onclick="location.href='registration.html'">Registration</button>
+    </div>
+</body>
+</html>
